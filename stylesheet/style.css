@@ -78,6 +78,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 100px;
+    position: relative;
 }
 .half-width{
    width: 50%;
@@ -114,4 +116,10 @@
 .banner-img{
     display: flex;
     justify-content: end;
+}
+.camera{
+    top: 28%;
+    left: 64%;
+    position: absolute;
+    width: 32%;
 }
